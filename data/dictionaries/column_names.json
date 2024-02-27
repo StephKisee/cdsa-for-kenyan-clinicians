@@ -1,0 +1,149 @@
+{
+  "columns": {
+    "_submission__uuid": "_uuid",
+    "_uuid": "_uuid",
+    "start": "start",
+    "end": "end",
+    "County": "county",
+    "Health Facility": "facility",
+    "Patient File's OPD/ In-patient number": "patient_id",
+    "Age of patient": "age",
+    "Sex of patient": "sex",
+    "Temparature": "temperature",
+    "Which of the following did the patient experience": "triage_signs",
+    "BP": "blood_pressure",
+    "Weight": "weight",
+    "Can this weight measurement qualify as failure to thrive": "failure_to_thrive",
+    "Height": "height",
+    "Can this height measurement qualify as stunting": "stunting",
+    "Spo2": "spo2",
+    "Did the patient experience chills": "chills",
+    "MUAC": "muac",
+    "Provide some patient history": "patient_history",
+    "General signs": "gen_signs",
+    "Clinical signs related to the central nervous system (CNS)": "cns_signs",
+    "Clinical signs related to the cardiovascular system (CVS)": "cvs_signs",
+    "Clinical signs related to the upper respiratory system (URS)": "urs_signs",
+    "Clinical signs related to the lower respiratory system (LRS)": "lrs_signs",
+    "Clinical signs related to the gastrointestinal tract (GIT)": "git_signs",
+    "Clinical signs related to the genitourinary system (GUS)": "gus_signs",
+    "Clinical signs related to the musculoskeletal system (MSS)": "mss_signs",
+    "Clinical signs related to the skin": "skn_signs",
+    "Clinical signs related to the special senses": "sps_signs",
+    "Other unclassified symptoms": "oth_signs",
+    "choice_cns": "cns_signs",
+    "choice_cvs": "cvs_signs",
+    "choice_urs": "urs_signs",
+    "choice_lrs": "lrs_signs",
+    "choice_git": "git_signs",
+    "choice_gus": "gus_signs",
+    "choice_mss": "mss_signs",
+    "choice_skin": "skn_signs",
+    "choice_spec": "sps_signs",
+    "choice_oth": "oth_signs",
+    "Duration in days of presentation with ${choice_cns}": "duration",
+    "Duration in days of presentation with ${choice_cvs}": "duration",
+    "Duration in days of presentation with ${choice_urs}": "duration",
+    "Duration in days of presentation with ${choice_lrs}": "duration",
+    "Duration in days of presentation with ${choice_git}": "duration",
+    "Duration in days of presentation with ${choice_gus}": "duration",
+    "Duration in days of presentation with ${choice_mss}": "duration",
+    "Duration in days of presentation with ${choice_skin}": "duration",
+    "Duration in days of presentation with ${choice_spec}": "duration",
+    "Duration in days of presentation with ${choice_oth}": "duration",
+    "Duration in days of presentation of signs": "duration",
+    "Was a laboratory investigation carried out": "lab_investigation",
+    "Type of lab test carried out": "lab_test",
+    "choice_lab1": "lab_test",
+    "Diagnosis based on ${choice_lab1}": "diagnosis",
+    "Clinical diagnosis": "diagnosis"},
+
+  "multiple_entry_cols": {
+    "General signs": [
+        "Swelling of limbs (Oedema)",
+        "Night sweats",
+        "Skin being cold or clammy",
+        "Skin turning pale",
+        "Skin turning bluish color (cyanosis)"
+        ],
+    "Clinical signs related to the central nervous system (CNS)": [
+        "Headache",
+        "Agitation, confusion, drowsiness, delirium, seeing or hearing things that are not there (hallucinations)",
+        "Difficulty paying attention (attention deficit)",
+        "Low mood, sadness and depression",
+        "Dizziness",
+        "Bulging soft spot on the head",
+        "Poor reflexes",
+        "Numbness or tingling sensation",
+        "Difficulty sleeping",
+        "Loss of speech or movement"
+        ],
+    "Clinical signs related to the cardiovascular system (CVS)": [
+        "Rapid heart rate",
+        "Difficulty breathing, especially at rest, or unable to speake in sentences"
+        ],
+    "Clinical signs related to the upper respiratory system (URS)": [
+        "Dry Cough",
+        "Sore throat",
+        "New and persistent cough",
+        "Nosebleeds",
+        "Runny or blocked nose, or sneezing",
+        "Hoarse voice"
+        ],
+    "Clinical signs related to the lower respiratory system (LRS)": [
+        "Sharp or stabbing chest pain that gets worse when you breathe deeply or cough",
+        "Cough, which may produce greenish, yellow or even bloody mucus",
+        "Shortness of breath",
+        "Rapid breathing",
+        "Rapid, shallow breathing",
+        "Difficulty breathing, especially at rest, or unable to speake in sentences"
+        ],
+    "Clinical signs related to the gastrointestinal tract (GIT)": [
+        "Distended abdomen",
+        "Bloating and flatulence (excess gas)",
+        "Abdominal cramps, with a colicky pattern",
+        "An urgent need to go to the toilet",
+        "Loose and watery stools of diarrhoea"
+        ],
+    "Clinical signs related to the genitourinary system (GUS)": [
+        "Reduced urine output",
+        "Dark coloured urine"
+        ],
+    "Clinical signs related to the musculoskeletal system (MSS)": [
+        "Slow, sluggish, weak feeling",
+        "Fatigue",
+        "Severe fatigue",
+        "Muscle or joint pain",
+        "Low energy",
+        "General feeling of discomfort"
+        ],
+    "Clinical signs related to the skin": [
+        "A rash of flat, rose-colored spots",
+        "Wounds taking a long time to heal",
+        "Hair changes (sparse, thin, colour changes)"
+        ],
+    "Clinical signs related to the special senses": [
+        "Loss or change of sense of taste or smell"
+        ],
+    "Other unclassified symptoms": [
+        "Unintentional weight loss",
+        "Getting ill often and taking a long time to recover",
+        "Feeling cold most of the time",
+        "Pain near the site of infection (for extrapulmonary TB)",
+        "Sore eyes",
+        "Persistent pain or pressure in the chest"
+        ],
+    "Type of lab test carried out": [
+        "mRDT",
+        "SAT",
+        "Microscopy",
+        "Culture",
+        "GeneXpert",
+        "Stool examination",
+        "Haemogramm",
+        "X-ray",
+        "PCR",
+        "covid-RDT"
+        ]
+    }
+}
