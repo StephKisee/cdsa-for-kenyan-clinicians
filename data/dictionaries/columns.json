@@ -2,6 +2,8 @@
   "columns": {
     "_submission__uuid": "_uuid",
     "_uuid": "_uuid",
+    "_index": "index",
+    "_parent_index": "parent_index",
     "County": "county",
     "Patient File's OPD/ In-patient number": "patient_id",
     "Age of patient": "age",
